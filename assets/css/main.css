@@ -1,3 +1,5 @@
+
+
 body{
   margin: 0;
 }
@@ -6,23 +8,30 @@ body{
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-}
-
-.logo{
-  width: 50%;
 }
 
 .einweisung{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .einweisung-text{
   width: 40%;
+  margin-right: 100px;
+  background-color: rgba(211, 211, 211, 0.479);
+  padding: 2%;
+  border-radius: 10px;
 }
 
-.mission-section{
-  margin-left: 10%;
-  margin-right: 10%;
+.mission-section, .choose-section{
+  width: 100vw;
+  height: 100vh;
+}
+
+.choose-section{
+  background-color: #000;
 }
