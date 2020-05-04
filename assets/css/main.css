@@ -39,6 +39,7 @@ body{
 .choose-section{
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 .choose-faction{
@@ -83,4 +84,28 @@ body{
 
 #choose-text-b, #choose-text-c, #choose-text-a{
   opacity: 0;
+}
+
+.factionWatermark{
+  position: absolute;
+  opacity: .3;
+}
+
+.AAF-Soldire{
+  height: 50%;
+  top: 35%;
+  right: 5%;
+  z-index: 1;
+}
+
+.CSAT-Tank{
+  top: 25%;
+  right: 50%;
+  z-index: 1;
+}
+
+.BLUFOR-Soldires{
+  top: 40%;
+  left: 10%;
+  z-index: 1;
 }
