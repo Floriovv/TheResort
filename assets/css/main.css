@@ -35,11 +35,6 @@ body{
   height: 100vh;
 }
 
-.choose-section{
-  background-color: rgba(0, 0, 0, 0.329);
-  color: #fff;
-}
-
 .choose-faction{
   display: flex;
   flex-direction: row;
@@ -72,12 +67,14 @@ body{
 
 .flag-container{
   height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .choose-text{
   margin-top: 5%;
 }
 
-#choose-text-b{
+#choose-text-b, #choose-text-c, #choose-text-a{
   opacity: 0;
 }

@@ -19,3 +19,11 @@ document.getElementById("choose-a").addEventListener("mouseover", function(){
 document.getElementById("choose-b").addEventListener("click", function(){
   document.getElementById("choose-text-b").style.opacity = 1;
 })
+
+document.getElementById("choose-c").addEventListener("click", function(){
+  document.getElementById("choose-text-c").style.opacity = 1;
+})
+
+document.getElementById("choose-a").addEventListener("click", function(){
+  document.getElementById("choose-text-a").style.opacity = 1;
+})
