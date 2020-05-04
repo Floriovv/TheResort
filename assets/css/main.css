@@ -34,4 +34,25 @@ body{
 
 .choose-section{
   background-color: #000;
+  color: #fff;
+}
+
+.choose-fraction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flag:hover{
+  height: 100%;
+  width: 110%; 
+}
+
+.flag{
+  margin-top: 5%;
+  transition: width 2s;
+}
+
+.choose-text{
+  display: none;
 }
