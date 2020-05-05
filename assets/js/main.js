@@ -2,18 +2,27 @@ document.getElementById("choose-b").addEventListener("mouseover", function(){
   document.getElementById("choose-b").style.opacity = 1;
   document.getElementById("choose-c").style.opacity = .5;
   document.getElementById("choose-a").style.opacity = .5;
+  document.getElementById("IndependentSoldat").style.opacity = .3;
+  document.getElementById("CsatSoldat").style.opacity = .3;
+  document.getElementById("NatoSoldat").style.opacity = 1;
 })
 
 document.getElementById("choose-c").addEventListener("mouseover", function(){
   document.getElementById("choose-b").style.opacity = .5;
   document.getElementById("choose-c").style.opacity = 1;
   document.getElementById("choose-a").style.opacity = .5;
+  document.getElementById("IndependentSoldat").style.opacity = .3;
+  document.getElementById("CsatSoldat").style.opacity = 1;
+  document.getElementById("NatoSoldat").style.opacity = .3;
 })
 
 document.getElementById("choose-a").addEventListener("mouseover", function(){
   document.getElementById("choose-b").style.opacity = .5;
   document.getElementById("choose-c").style.opacity = .5;
   document.getElementById("choose-a").style.opacity = 1;
+  document.getElementById("IndependentSoldat").style.opacity = 1;
+  document.getElementById("CsatSoldat").style.opacity = .3;
+  document.getElementById("NatoSoldat").style.opacity = .3;
 })
 
 document.getElementById("choose-b").addEventListener("click", function(){

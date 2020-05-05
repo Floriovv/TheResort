@@ -78,7 +78,7 @@ body{
   justify-content: center;
 }
 
-.choose-text{
+.choose-text, .choose-title{
   margin-top: 5%;
 }
 
@@ -87,25 +87,20 @@ body{
 }
 
 .factionWatermark{
+  transition: opacity .5s;
   position: absolute;
   opacity: .3;
-}
-
-.AAF-Soldire{
-  height: 50%;
   top: 35%;
-  right: 5%;
-  z-index: 1;
 }
 
-.CSAT-Tank{
-  top: 25%;
-  right: 50%;
-  z-index: 1;
+.IndependentSoldat{
+  right: 18%;
 }
 
-.BLUFOR-Soldires{
-  top: 40%;
-  left: 10%;
-  z-index: 1;
+.CsatSoldat{
+  right: 41%;
+}
+
+.NatoSoldat{
+  left: 20%;
 }
